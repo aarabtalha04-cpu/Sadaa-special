@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For My Sadaa ❤️</title>
+
+<style>
+body {
+  background: linear-gradient(135deg,#ffb6c1,#ffe4e1);
+  font-family: Arial;
+  text-align: center;
+  padding: 25px;
+  color: #5c1835;
+}
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 25px;
+  margin-top: 35px;
+  box-shadow: 0 5px 20px #d98a9b;
+}
+button {
+  background: #ff4f81;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 25px;
+  margin: 10px;
+  font-size: 16px;
+}
+#message {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+<h1>For My Sadaa ❤️</h1>
+
+<h3>A little world made just for you 🌷</h3>
+
+<p>Some feelings deserve more than just words...</p>
+
+<button onclick="show(1)">Why You're Special 💗</button>
+<button onclick="show(2)">A Little Promise 🥺</button>
+<button onclick="show(3)">My Favourite Person 🌸</button>
+<button onclick="show(4)">One Secret ❤️</button>
+
+<div id="message"></div>
+</div>
+
+<script>
+function show(n) {
+let messages = {
+1: "Your smile, your innocence, your little anger and your beautiful heart make you so special to me. ❤️",
+
+2: "I know I haven't always been perfect. I cannot change yesterday, but I want to show you through my actions that I am trying every day. 🥺",
+
+3: "My favourite footballer, my favourite teacher, my favourite girl and my favourite person. That's you, Sadaa! ⚽❤️",
+
+4: "If I could choose one person to make beautiful memories with again and again, I would choose you every single time. I love you. 💗"
+};
+document.getElementById("message").innerHTML = messages[n];
+}
+</script>
+
+</body>
+</html>
